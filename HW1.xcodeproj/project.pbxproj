@@ -14,6 +14,11 @@
 		65E6F4C8271C050800FF1682 /* bone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E6F4C7271C050800FF1682 /* bone.swift */; };
 		65E6F4CA271C051800FF1682 /* bone2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E6F4C9271C051800FF1682 /* bone2.swift */; };
 		65E6F4CC271C79BB00FF1682 /* face.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E6F4CB271C79BB00FF1682 /* face.swift */; };
+		65E6F4CE271C7AB500FF1682 /* hat_up.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E6F4CD271C7AB500FF1682 /* hat_up.swift */; };
+		65E6F4D0271C7C2700FF1682 /* hat_down.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E6F4CF271C7C2700FF1682 /* hat_down.swift */; };
+		65E6F4D2271C7CF500FF1682 /* teeth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E6F4D1271C7CF500FF1682 /* teeth.swift */; };
+		65E6F4D4271C7D7000FF1682 /* teeth1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E6F4D3271C7D7000FF1682 /* teeth1.swift */; };
+		65E6F4D6271C7DE800FF1682 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E6F4D5271C7DE800FF1682 /* Background.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,11 @@
 		65E6F4C7271C050800FF1682 /* bone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bone.swift; sourceTree = "<group>"; };
 		65E6F4C9271C051800FF1682 /* bone2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bone2.swift; sourceTree = "<group>"; };
 		65E6F4CB271C79BB00FF1682 /* face.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = face.swift; sourceTree = "<group>"; };
+		65E6F4CD271C7AB500FF1682 /* hat_up.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hat_up.swift; sourceTree = "<group>"; };
+		65E6F4CF271C7C2700FF1682 /* hat_down.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hat_down.swift; sourceTree = "<group>"; };
+		65E6F4D1271C7CF500FF1682 /* teeth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teeth.swift; sourceTree = "<group>"; };
+		65E6F4D3271C7D7000FF1682 /* teeth1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teeth1.swift; sourceTree = "<group>"; };
+		65E6F4D5271C7DE800FF1682 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +51,11 @@
 		65E6F4AD271C04F100FF1682 = {
 			isa = PBXGroup;
 			children = (
+				65E6F4D5271C7DE800FF1682 /* Background.swift */,
+				65E6F4D3271C7D7000FF1682 /* teeth1.swift */,
+				65E6F4D1271C7CF500FF1682 /* teeth.swift */,
+				65E6F4CF271C7C2700FF1682 /* hat_down.swift */,
+				65E6F4CD271C7AB500FF1682 /* hat_up.swift */,
 				65E6F4CB271C79BB00FF1682 /* face.swift */,
 				65E6F4B8271C04F100FF1682 /* HW1 */,
 				65E6F4B7271C04F100FF1682 /* Products */,
@@ -146,11 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E6F4D2271C7CF500FF1682 /* teeth.swift in Sources */,
 				65E6F4CA271C051800FF1682 /* bone2.swift in Sources */,
+				65E6F4D4271C7D7000FF1682 /* teeth1.swift in Sources */,
 				65E6F4BC271C04F100FF1682 /* ContentView.swift in Sources */,
+				65E6F4D0271C7C2700FF1682 /* hat_down.swift in Sources */,
+				65E6F4CE271C7AB500FF1682 /* hat_up.swift in Sources */,
 				65E6F4BA271C04F100FF1682 /* HW1App.swift in Sources */,
 				65E6F4CC271C79BB00FF1682 /* face.swift in Sources */,
 				65E6F4C8271C050800FF1682 /* bone.swift in Sources */,
+				65E6F4D6271C7DE800FF1682 /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
