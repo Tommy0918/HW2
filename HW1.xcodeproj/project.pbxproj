@@ -13,6 +13,7 @@
 		65E6F4C1271C04F200FF1682 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E6F4C0271C04F200FF1682 /* Preview Assets.xcassets */; };
 		65E6F4C8271C050800FF1682 /* bone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E6F4C7271C050800FF1682 /* bone.swift */; };
 		65E6F4CA271C051800FF1682 /* bone2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E6F4C9271C051800FF1682 /* bone2.swift */; };
+		65E6F4CC271C79BB00FF1682 /* face.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E6F4CB271C79BB00FF1682 /* face.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		65E6F4C0271C04F200FF1682 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		65E6F4C7271C050800FF1682 /* bone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bone.swift; sourceTree = "<group>"; };
 		65E6F4C9271C051800FF1682 /* bone2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bone2.swift; sourceTree = "<group>"; };
+		65E6F4CB271C79BB00FF1682 /* face.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = face.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 		65E6F4AD271C04F100FF1682 = {
 			isa = PBXGroup;
 			children = (
+				65E6F4CB271C79BB00FF1682 /* face.swift */,
 				65E6F4B8271C04F100FF1682 /* HW1 */,
 				65E6F4B7271C04F100FF1682 /* Products */,
 			);
@@ -146,6 +149,7 @@
 				65E6F4CA271C051800FF1682 /* bone2.swift in Sources */,
 				65E6F4BC271C04F100FF1682 /* ContentView.swift in Sources */,
 				65E6F4BA271C04F100FF1682 /* HW1App.swift in Sources */,
+				65E6F4CC271C79BB00FF1682 /* face.swift in Sources */,
 				65E6F4C8271C050800FF1682 /* bone.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

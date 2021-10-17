@@ -47,7 +47,7 @@ struct ContentView: View {
                 hat1.closeSubpath()
                 }
                 //.stroke(.red)
-                .fill(.yellow)
+                .fill(.green)
                 Path { teeth in
                     teeth.move(to: CGPoint(x:135 ,y:101))
                     teeth.addLine(to: CGPoint(x:131, y:128))
@@ -58,13 +58,8 @@ struct ContentView: View {
                 }
                 //.stroke(.red)
                 .fill(.white)
-                Path { face in
-                    face.move(to: CGPoint(x:115, y:68))
-                    face.addArc(center: CGPoint(x: 151, y: 68), radius: 37,
-                                startAngle: .zero, endAngle: .degrees(180), clockwise: false)
-                }
-                //.stroke(.red)
-                .fill(.white)
+                face()
+                    .fill(Color.white)
                 Path { face1 in
                     face1.move(to: CGPoint(x:115, y:68))
                     face1.addArc(center: CGPoint(x: 151, y: 68), radius: 37,
@@ -78,7 +73,7 @@ struct ContentView: View {
                     hat3.closeSubpath()
                 }
                 //.stroke(.green)
-                .fill(.yellow)
+                .fill(.green)
                 Path { hat2 in
                     hat2.move(to: CGPoint(x:115,y:65))
                     hat2.addLine(to: CGPoint(x:117, y:60)) //186,57
