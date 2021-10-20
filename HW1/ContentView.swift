@@ -10,6 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack{
+            NavigationView{
+                //flag()
+            }
             flag()
             Text("我要成為海賊王！")
                 .bold()
